@@ -1,0 +1,107 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;;
+
+}
+
+body{
+    background-color: rgb(104, 100, 100);
+}
+
+.ota{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* margin-top: 350px ;
+    margin: 0 auto; */
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+
+    background-color: rgb(62, 61, 61);
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 36px;
+    color: white;
+    text-shadow: 10px 10px 50px white;
+}
+
+.bola{
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+    top: 200px;
+    left: -280px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms all ease;
+    
+}
+
+.bola1{
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms all ease;
+}
+
+.bola2{
+    width: 120px;
+    height: 100px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+    top: 25px;
+    left: 630px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms all ease;
+}
+
+
+.bola :hover{
+    text-shadow: 8px 8px 5px red;
+    color: red;
+    transition: 300ms all ease;
+}
+
+.bola1 :hover{
+    text-shadow: 8px 8px 5px red;
+    color: red;
+    transition: 300ms all ease;
+}
+
+.bola2 :hover{
+    text-shadow: 8px 8px  5px red;
+    color: red;
+    transition: 300ms all ease;
+}
+
+
+
+
+
+
+
